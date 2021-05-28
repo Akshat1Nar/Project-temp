@@ -10,7 +10,7 @@ list(APPEND SOURCES
     main.cpp
 )
 
-add_executable(video-app MACOSX_BUNDLE WIN32 ${SOURCES})
+add_executable(video-app ${SOURCES})
 
 
 target_link_libraries(video-app FFmpeg)
